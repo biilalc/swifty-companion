@@ -1,0 +1,71 @@
+name: swifty_companion
+description: "42 Swifty Companion - 42 API ile ogrenci bilgilerini goruntuleyen modern Android uygulamasi."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  # Provider'i sectik cunku proje olceginde yeterli, ogrenme egrisi dusuk,
+  # defense'te savunmasi kolay (Flutter ekibinin onerdigi resmi kutuphane).
+  provider: ^6.1.2
+
+  # HTTP client + interceptor destegi (otomatik token refresh icin kritik).
+  dio: ^5.7.0
+
+  # OAuth2 Authorization Code + PKCE akisini native seviyede yoneten,
+  # Google'in actif gelistirdigi AppAuth portu. Refresh token desteklidir.
+  flutter_appauth: ^6.0.2
+
+  # Token ve hassas bilgileri Android Keystore'da sifrelenmis olarak saklar.
+  flutter_secure_storage: ^9.2.2
+
+  # .env dosyasini runtime'da yukler.
+  flutter_dotenv: ^5.2.1
+
+  # Declarative navigation + auth guard (redirect) destegi.
+  go_router: ^14.6.2
+
+  # Cok dilli destek (TR + EN).
+  easy_localization: ^3.0.7
+
+  # Profil fotograflarinin diske cache'lenmesi icin.
+  cached_network_image: ^3.4.1
+
+  # Production seviyesinde log yonetimi (seviye filtreleme, formatlama).
+  logger: ^2.5.0
+
+  # Equatable ile model karsilastirmalari temiz olur.
+  equatable: ^2.0.5
+
+  # URL launcher (gerektiginde disari link acmak icin).
+  url_launcher: ^6.3.1
+
+  # Skeleton/shimmer yukleme efekti (UX icin).
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/translations/
+
+  # Modern, temiz bir sans-serif: Google'in tavsiye ettigi Inter'i secebilirdik
+  # ama bagimlilik eklememek adina sistem fontlarini kullaniyoruz.
