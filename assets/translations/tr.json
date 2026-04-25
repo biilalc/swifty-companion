@@ -1,0 +1,62 @@
+{
+  "app": {
+    "name": "Swifty Companion",
+    "tagline": "42 öğrencilerini keşfet"
+  },
+  "login": {
+    "title": "Hoş geldin",
+    "subtitle": "Öğrencileri keşfetmek için 42 intra hesabınla giriş yap.",
+    "button": "42 ile Giriş Yap",
+    "loading": "42 intra açılıyor...",
+    "privacy_note": "Kimlik doğrulama OAuth2 üzerinden güvenli şekilde intra.42.fr tarafından yapılır."
+  },
+  "home": {
+    "greeting_morning": "Günaydın",
+    "greeting_afternoon": "İyi günler",
+    "greeting_evening": "İyi akşamlar",
+    "search_hint": "Bir 42 login'i ara...",
+    "search_empty": "Aramak için bir login gir.",
+    "recent_searches": "Son aramalar",
+    "view_my_profile": "Profilimi gör",
+    "logout": "Çıkış yap",
+    "logout_confirm_title": "Çıkış yapılsın mı?",
+    "logout_confirm_body": "Tekrar giriş yapmanız gerekecek.",
+    "cancel": "İptal",
+    "confirm": "Onayla"
+  },
+  "profile": {
+    "level": "Seviye",
+    "wallet": "Cüzdan",
+    "correction_points": "Değ. hakkı",
+    "email": "E-posta",
+    "mobile": "Telefon",
+    "location": "Konum",
+    "location_unavailable": "Yok",
+    "grade": "Kademe",
+    "pool": "Havuz",
+    "section_details": "Detaylar",
+    "section_skills": "Yetenekler",
+    "section_projects": "Projeler",
+    "skills_empty": "Henüz kayıtlı yetenek yok.",
+    "projects_empty": "Henüz kayıtlı proje yok.",
+    "projects_passed": "Başarılı",
+    "projects_failed": "Başarısız",
+    "projects_in_progress": "Devam ediyor",
+    "cursus_selector": "Cursus"
+  },
+  "errors": {
+    "network": "Ağ hatası. Bağlantını kontrol edip tekrar dene.",
+    "timeout": "İstek zaman aşımına uğradı. 42 API yavaş veya erişilemiyor.",
+    "unauthorized": "Oturumun sona erdi. Lütfen tekrar giriş yap.",
+    "rate_limited": "Çok fazla istek. Lütfen biraz bekle.",
+    "server": "42 API şu anda kullanılamıyor. Daha sonra tekrar dene.",
+    "user_not_found": "'{login}' adlı kullanıcı bulunamadı.",
+    "login_cancelled": "Giriş iptal edildi.",
+    "login_failed": "Giriş başarısız. Lütfen tekrar dene.",
+    "unknown": "Beklenmeyen bir hata oluştu.",
+    "empty_login": "Aramak için bir login gir.",
+    "invalid_login": "Geçersiz login formatı (sadece harf, rakam, - ve _).",
+    "config_missing": "Konfigürasyon eksik. .env dosyanı kontrol et.",
+    "retry": "Tekrar dene"
+  }
+}
